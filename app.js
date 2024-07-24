@@ -4,6 +4,7 @@
 //   If the array does not contain any numbers 
 //   then you should return 0.
 
+// solution one
 const inPut = [];
 
 function sum(numbers) {
