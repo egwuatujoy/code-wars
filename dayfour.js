@@ -35,3 +35,14 @@ console.log(mulNum(10));
 function removeExclamationMarks(s) {
   return s.replaceAll("!", "");
 }
+
+// question four
+// Given an array of integers, return a new array with each value doubled.
+
+function maps(x) {
+  let txt = [];
+  for (let n of x) {
+    txt.push(n * 2);
+  }
+  return txt;
+}
