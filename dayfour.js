@@ -27,3 +27,11 @@ function mulNum(num) {
 }
 
 console.log(mulNum(10));
+
+// question three
+
+// Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+function removeExclamationMarks(s) {
+  return s.replaceAll("!", "");
+}
